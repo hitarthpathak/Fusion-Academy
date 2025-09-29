@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+nav {
+    border-radius: 50px;
+    height: auto;
+    width: 70%;
+    background-color: rgb(250, 250, 200);
+    margin: auto;
+    padding: 3rem;
+    text-align: center;
+}
+
+.set {
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.left-circle {
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    background-image: url("Images/Icon.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.description {
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+    background-color: rgba(130, 250, 200, 0.300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-box {
+    height: 30rem;
+    width: 25rem;
+    background-image: url("Images/Pamphlet.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.video-box {
+    height: 100%;
+    width: 40%;
+    padding: 1rem;
+    background-color: rgba(130, 250, 200, 0.300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-box video {
+    height: 100%;
+    width: auto;
+}
+
+footer {
+    height: auto;
+    width: auto;
+    padding: 3rem;
+    background-color: bisque;
+}
