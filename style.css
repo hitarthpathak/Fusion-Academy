@@ -15,6 +15,10 @@ hr {
     margin: 1rem 0;
 }
 
+marquee {
+    font-size: 2rem;
+}
+
 nav {
     border-radius: 50px;
     height: auto;
@@ -45,13 +49,16 @@ nav {
 }
 
 .description {
+    border-radius: 50px;
     height: 100%;
     width: 50%;
     padding: 1rem;
+    font-size: 1.5rem;
     background-color: rgba(130, 250, 200, 0.300);
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+    flex-direction: column;
 }
 
 .right-box {
@@ -64,6 +71,7 @@ nav {
 }
 
 .video-box {
+    border-radius: 50px;
     height: 100%;
     width: 40%;
     padding: 1rem;
@@ -79,8 +87,32 @@ nav {
 }
 
 footer {
+    border-radius: 50px;
     height: auto;
     width: auto;
     padding: 3rem;
     background-color: bisque;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.social-media-box,
+.contact-us-box,
+.address-box {
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    background-color: rgba(130, 250, 200, 0.300);
+    padding: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.social-media-box img {
+    height: 1.5rem;
+    width: auto;
 }
